@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+   <title>Stop Watch</title>
+    <link  rel="stylesheet" href="css/styles.css">
+</head>
+  <body>
+    <header role="banner" class="header">
+        <h1>My Golden Ticket</h1> 
+        <h4>Pick your Poison</h4>
+        <nav role="navigation" class="navigation">
+            <a href="index.html" title="Welcome to my Website">Welcome to my Website</a>
+            <a href="AboutMe.html" title="About Me">About Me</a>
+            <a href="StopWatch.html" title="Stop Watch">Stop Watch</a>
+            </nav>
+      </header>
+      <section>
+         <h1>Stop Watch</h1>
+         <p>Welcome to the Stop Watch! The stop watch has four beautiful buttons, thanks to my css skills, that will allow you to control it. The start and stop buttons are fairly self explanitory. The "Log Time" button will allow you to take your current time and log it into one of the spots below! After all the slots are filled the "Log Time" button will replace your first logged time and so on. The reset button will not only reset the time but also reset all your logged times. Have fun! I mean as much fun as you can have with an extremely basic stop watch.</p>
+          <div id="stopWatch">00:00:00</div>
+                <button id="start" class="watch">Start</button>
+                <button id="stop" class="watch">Stop</button>
+                <button id="log" class="watch">Log Time</button>
+                <button id="reset" class="watch">Reset</button>
+                         <h2>Logged Times</h2>
+                          <div id="time1">00:00:00</div>
+                          <div id="time2">00:00:00</div>
+                          <div id="time3">00:00:00</div>
+                          <div id="time4">00:00:00</div>
+                          <div id="time5">00:00:00</div>
+      </section>
+      <script src="javascript/stopwatch.js"></script>
+    </body>
+</html>
